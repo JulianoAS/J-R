@@ -1,0 +1,543 @@
+/*ajustar imagem no carousel */
+.image-carousel {
+  /* encaixa a imagem no conatiner sem distorcer*/
+  object-fit: cover;
+  /* coloca a imagem na posição desejada dentro do container no eixo x*/
+  object-position: 100%;
+  max-height: 600px;
+}
+
+.image-carousel-dois {
+  /* encaixa a imagem no conatiner sem distorcer*/
+  object-fit: cover;
+  /* coloca a imagem na posição desejada dentro do container no eixo x*/
+  object-position: 100%;
+  min-height: 600px;
+}
+
+.img-main {    
+    margin-top: 75px;    
+ /*   background-image: url(../Img/undraw_online_test_gba7.png);*/
+    min-height: 620px;
+    }
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-top: 75px;
+
+}
+
+.iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+ }
+
+.mainhead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../Img/artificial-intelligence.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    min-height: 620px;
+}
+.mainhead p{
+    font-size:70px;
+    padding-top:100px;
+}
+
+.article-card-body{
+    min-height:253.81px;
+}
+
+
+.font-libre {
+  font-family: 'Libre Caslon Display', serif;
+}
+
+.font-garamond {
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+.texto-cor-site {
+  color: indianred;
+}
+
+.section-about {
+  background-color: white;
+  min-height: 400px;
+  color: black;
+  padding-top: 90px;
+  padding-bottom:20px;
+}
+
+.section-about p {
+  font-size: 25px;
+}
+
+.section-services {
+  background-color: #cd5c5c;
+  min-height: 400px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.section-services p {
+  font-size: 22px;
+}
+
+.section-contact {
+  padding-top: 80px;
+  min-height: 620px;
+}
+
+.contact-p {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.card-img {
+  max-width: 100%;
+  border-color: gray;
+  background-color: gray;
+}
+
+.card-img-top {
+  max-height: 201.58px;
+  object-fit: cover;
+}
+
+.btn-one {
+  color: #fff;
+  transition: all 0.3s;
+  position: relative;
+}
+.btn-one span {
+  transition: all 0.3s;
+  color: #fff;
+}
+.btn-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+  transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+  letter-spacing: 2px;
+}
+.btn-one:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.btn-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-one:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}
+
+.btn-cor-site {
+    color: white;
+    background-color: indianred !important;
+    border-color: rgb(158, 27, 45);
+    border-width: 1px 1px 1x 1px;   
+   
+}
+
+    .btn-cor-site:visited {
+        background-color: indianred;
+        border-color: rgb(158, 27, 45);
+        border-width: 1px 1px 1x 1px;
+    }
+
+    .btn-cor-site :focus {
+        background-color: indianred;
+        border-color: rgb(158, 27, 45);
+        border-width: 1px 1px 1x 1px;
+    }
+
+
+    .btn-cor-site :active {
+        background-color: indianred;
+        border-color: rgb(158, 27, 45);
+        border-width: 1px 1px 1x 1px;
+    }
+
+
+ .btn-especial-site {
+    color: white;
+    background-color: indianred !important;
+    border-color: rgb(158, 27, 45) !important;
+    transition: transform 0.2s; /* Animation */
+    border-width: 1px 1px 1px 1px;
+    display: block;
+    font-size: 40px;
+}
+
+    .btn-especial-site:visited {
+        background-color: indianred;
+        border-color: rgb(158, 27, 45);
+        border-width: 1px 1px 1x 1px;
+    }
+
+ .btn-especial-site:focus {
+        background-color: indianred;
+        border-color: rgb(158, 27, 45);
+        border-width: 1px 1px 1x 1px;
+ }
+
+.btn-especial-site:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  color: white;
+  background-color: transparent;
+  border: indianred;
+  display: block;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+}    
+
+.btn-especial-site:active {
+    background-color: indianred;
+    border-color: rgb(158, 27, 45);
+    border-width: 1px 1px 1x 1px;
+}
+
+.li-footer {
+    background-color: indianred;
+}
+
+.social-media-box {
+  padding-top: 170px;
+}
+.social-media {
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  margin: 5px 5px 5px 5px;
+}
+
+.social-media:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+.social-media-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.socila-media-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.social-media-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.social-media-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.social-media-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.social-media-whatsapp {
+  background: #25d366;
+  color: white;
+}
+
+.social-media-instagram {
+  background: #125688;
+  color: white;
+}
+
+.social-media-email {
+  background: #b7c0c7;
+  color: white;
+}
+
+.social-media-whats-fixed {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.social-media-whats-fixed:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+.copyright {
+  background-color: rgb(158, 27, 45);
+  height: 40px;
+  margin: 0px;
+  font-size: 18px;
+  color: white;
+}
+
+.modal-contact h5,
+h3 {
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+}
+
+.modal-contact p {
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+
+.modal-contact label {
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+.modal-contact input {
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+.modal-contact textarea {
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+.modal-contact-header {
+  background-color: rgb(158, 27, 45);
+  color: white;
+}
+
+.modal-contact-header span {
+  color: white;
+}
+
+.modal-contact-footer {
+  background-color: rgb(158, 27, 45);
+  color: white;
+}
+
+.modal-result{
+    font-size:10px;
+}
+
+.nav-main {
+    background-color: white;
+    opacity: 1;
+    box-shadow: 10px 10px 20px 2px #aaa6a6;
+    transition: background-color 0.2s ease;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    min-height: 76px;
+}
+
+.nav-main a {
+    color: indianred !important;
+}
+
+.nav-main a:hover {
+  opacity: 0.3;
+  color: gray;
+}
+
+.nav-main img {
+  object-fit: cover;
+}
+
+.nav-footer {
+  padding-top: 0px;
+  padding-top: 120px;
+  font-size: 25px;
+}
+
+.nav-footer a:hover {
+  opacity: 0.3;
+  color: white;
+}
+
+.nav-footer a {
+  color: white;
+}
+
+/* elements */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: indianred;
+}
+
+hr.light {
+  border-color: white;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: indianred;
+  min-height: 200px;
+}
+
+#mainVideo {
+  min-width: 100%;
+  margin-top: 75px;
+}
+
+#msgResult {
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+
+/*-- Animation --*/
+
+#modalWhats {
+  animation: mWhats 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes mWhats {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+/*---- SVG -----*/
+#chat {
+  width: 100%;
+  /*-width: '607';
+  height: '437';*/
+  object-fit: cover;
+}
+
+#face {
+  animation: faceP 3s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#hair {
+  animation: hairGirl 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes faceP {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes hairGirl {
+  from {
+    transform: rotatez(0deg);
+  }
+  to {
+    transform: rotatez(10deg);
+  }
+}
+/* media screen reponsive */
+
+
+
+@media only screen and (max-width: 380px) {
+    .modal-contact p {
+        font-size: 18px;
+        font-family: 'EB Garamond', serif;
+    }
+
+    .modal-contact h5,
+    h3 {
+        font-size: 20px;
+        font-family: 'EB Garamond', serif;
+    }
+    .mainhead p{
+        padding-top:40px;
+    }
+    .section-about{
+        padding-top:40px;
+    }
+}
+
+@media only screen and (width: 768px) {
+  .section-contact {
+    min-height: 300px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .contact-p {
+    padding-top: 50px;
+    padding-right: 10px;
+  }
+}
