@@ -1,6 +1,0 @@
-D:\Projetos\J&R\WebApplication1\jr_repo\bin\Release\jr_repo.dll
-D:\Projetos\J&R\WebApplication1\jr_repo\bin\Release\jr_repo.pdb
-D:\Projetos\J&R\WebApplication1\jr_repo\obj\Release\jr_repo.csprojAssemblyReference.cache
-D:\Projetos\J&R\WebApplication1\jr_repo\obj\Release\jr_repo.csproj.CoreCompileInputs.cache
-D:\Projetos\J&R\WebApplication1\jr_repo\obj\Release\jr_repo.dll
-D:\Projetos\J&R\WebApplication1\jr_repo\obj\Release\jr_repo.pdb
