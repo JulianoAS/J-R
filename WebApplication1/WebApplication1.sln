@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jr_repo", "jr_repo\jr_repo.csproj", "{26627545-8879-4190-AFD4-CBA73371A955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JR_MVC", "..\JR_MVC\JR_MVC.csproj", "{B9AD8D91-A571-4AD7-9FC2-44FAB1EC6ED4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26627545-8879-4190-AFD4-CBA73371A955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26627545-8879-4190-AFD4-CBA73371A955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26627545-8879-4190-AFD4-CBA73371A955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26627545-8879-4190-AFD4-CBA73371A955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AD8D91-A571-4AD7-9FC2-44FAB1EC6ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AD8D91-A571-4AD7-9FC2-44FAB1EC6ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AD8D91-A571-4AD7-9FC2-44FAB1EC6ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AD8D91-A571-4AD7-9FC2-44FAB1EC6ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C676A6E3-A86C-4992-B97A-B9B395394161}
+	EndGlobalSection
+EndGlobal
